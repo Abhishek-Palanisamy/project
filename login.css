@@ -1,37 +1,45 @@
-#bgpic{
-    background-image: url("https://wallpaperaccess.com/full/2314950.jpg");
+*{
+    text-decoration:none;
 }
 #full{
-    
-    border: 2px solid white;
-    padding: 2%;
-    margin-left: 36%;
-    margin-top: 2%;
-    margin-right: 35%;
+    border: 2px solid black;
+    margin-left: 33%;
+    margin-top: 10%;
     padding-top: 4%;
+    width: 30%;
     padding-bottom: 4%;
-
+  
 }
-#space{
-    margin-top: 9%;
-    margin-left: 43%;
-    font-style: italic;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-#pic{
-    margin-left: 45%;
-    margin-top: 8%;
-}
-#clr{
-    color: white;
-}
-#clr1{
-    color:whitesmoke;
-
-}
-#bod{
-    font-size:larger; 
-    font-style:italic; 
-    font-weight:bolder
+#num{
+    font-size:medium;
+    margin-top: 2%;
+    padding: 3%;
+    font-style:italic;
+    font-weight: bold;
     
+}
+#pwd{
+    font-size: medium;
+    padding: 3%;
+    font-style:italic;
+    font-weight: bold;
+    text-decoration:none;
+}
+#button{
+    padding: 3%;
+    margin-left: 39%;
+}
+#badge{
+    margin-left: 30%;
+    color: black;
+}
+#fpwd{
+    margin-left: 33%;
+    margin-top: 2%;
+   
+}
+#acc{
+    margin-top: 2%;
+    margin-left: 29%;
+    text-decoration: none;
 }

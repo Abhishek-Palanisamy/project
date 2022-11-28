@@ -1,24 +1,32 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>login</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
     <link rel="stylesheet" href="login.css">
 </head>
-<body id="bod" style="background-image:url(https://assets.aboutamazon.com/66/54/c8bf6d904123989491bf543678eb/adobestock-139082292.jpeg);">
-    
-    <form action="reg_form.html" method="get" >
-        <div id="pic"> 
-            <img src="https://statinfer.com/wp-content/uploads/dummy-user.png" height="19%" width="17%">
-        </div>
-        <div id="full">
-        
-           <div id="clr"><label for="mail">Email Id:</label>  
-            &ensp;<input type="email" name="mail" placeholder="someone@gmail.com" required></div><br>
-            <div id="clr1"><label for="pwd">Password:</label>
-           <input type="password" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,32}" placeholder="Someone123" required></div>
-       
-           <div id="space"><button>Login</button></div>
-        </div>
-    
-    </form>
+<body>
+    <form action="homepage.html" method="get">
+    <div id="full">
+    <div id="badge">
+    <img src="user profile.png" width="60%" height="30%"></div>
+    <div id="num">
+    <label for="num">Mobile Number:</label>
+    <input type="tel" name="num" placeholder="Enter Phone" maxlength="10" required></div>
+    <div id="pwd">
+    <label for="pwd">Password:</label>&emsp;&emsp;&ensp;
+    <input type="password" name="pwd" placeholder="Enter Password" minlength="8" maxlength="32" required></div>
+    <div id="button">
+    <button>Login</button></div>
+    <div id="fpwd">
+        <a href=reset.html style="color:black;">Forget Password?</a>
+    </div>
+    <div id="acc">
+        No Account? <a href=signup.html style="color:black;">Sign Up.</a>
+    </div>
+</div>
+</form>
 </body>
 </html>

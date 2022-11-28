@@ -1,0 +1,42 @@
+#full{
+    border: 2px solid black;
+    border-radius: 9px;
+    margin-left: 36%;
+    width: 25%;
+    padding: 2%;
+    padding-top: 3%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+#badge{
+    margin-left: 38%;
+    padding: 2%;
+}
+#uname{
+    padding: 2%;
+    font-weight: bold;
+    font-style: italic;
+}
+#mb{
+    padding: 2%;
+    font-weight: bold;
+    font-style: italic;
+}
+#mail{
+    padding: 2%;
+    font-weight: bold;
+    font-style: italic;
+}
+#pwd{
+    padding: 2%;
+    font-weight: bold;
+    font-style: italic;
+}
+#space{
+    padding-top: 5%;
+    margin-left: 40%;
+}
+#login{
+padding-top: 4%;
+margin-left: 15%;
+}
